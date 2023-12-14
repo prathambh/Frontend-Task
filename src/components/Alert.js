@@ -1,4 +1,4 @@
-// src/components/Alert.js
+
 import React from 'react';
 
 const Alert = ({ alert, onMarkFalseAlarm }) => {

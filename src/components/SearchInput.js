@@ -1,6 +1,6 @@
 // src/components/SearchInput.js
 import React, { useState, useEffect } from 'react';
-import { getVehicles } from '../services/vehicleData'; // You'll need to create this function
+import { getVehicles } from '../services/vehicleData'; 
 
 const SearchInput = ({ onSearch }) => {
   const [searchTerm, setSearchTerm] = useState('');

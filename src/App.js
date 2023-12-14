@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import './App.css';
 import Alert from './components/Alert';
@@ -41,7 +40,7 @@ function App() {
   };
 
   const handleMarkFalseAlarm = (alertId) => {
-    // Remove the alert with the specified ID
+    // Removing the alert with the specified ID
     const updatedAlerts = alerts.filter((alert) => alert.id !== alertId);
     setAlerts(updatedAlerts);
   };
@@ -54,9 +53,6 @@ function App() {
       <div className="flex justify-between mt-4">
         <div className="task-box">
           <SearchInput onSearch={handleSearch} />
-        </div>
-        <div className="task-box">
-          {/* Add your vehicle-related components or content here */}
         </div>
         <div className="task-box">
           <DateRangeInput onSearch={handleSearch} />
